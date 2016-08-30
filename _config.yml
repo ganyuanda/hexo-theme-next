@@ -5,8 +5,8 @@
 # Put your favicon.ico into `hexo-site/source/` directory.
 favicon: /favicon.ico
 
-# Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+# Set default keywords (Use a comma to separate) tedd
+keywords: "数学, 华杯赛, 奥数，数学竞赛"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -26,10 +26,10 @@ canonical: true
 # Menu Settings
 # ---------------------------------------------------------------
 
-# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives) tedd
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -58,10 +58,10 @@ menu_icons:
 # Scheme Settings
 # ---------------------------------------------------------------
 
-# Schemes
-scheme: Muse
+# Schemes tedd
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -138,10 +138,10 @@ social_icons:
   Weibo: weibo
 
 
-# Sidebar Avatar
+# Sidebar Avatar tedd
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -152,17 +152,17 @@ toc:
   number: true
 
 
-# Creative Commons 4.0 International License.
+# Creative Commons 4.0 International License. tedd
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
-#creative_commons:
+creative_commons: by-nc-sa
 
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -228,17 +228,17 @@ auto_excerpt:
 # Third Party Services Settings
 # ---------------------------------------------------------------
 
-# MathJax Support
+# MathJax Support tedd
 mathjax:
-  enable: false
+  enable: true
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
 # Swiftype Search API Key
 #swiftype_key:
 
-# Baidu Analytics ID
-#baidu_analytics:
+# Baidu Analytics ID tedd
+baidu_analytics: be11db1b45f6cdf6f6824ed1c8360c4f
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -328,8 +328,8 @@ busuanzi_count:
 # Tencent analytics ID
 # tencent_analytics:
 
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO tedd
+baidu_push: true
 
 
 
