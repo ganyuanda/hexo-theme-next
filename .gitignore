@@ -2,7 +2,9 @@
 .idea/
 *.log
 *.iml
+/_config.yml
 _config.yml
+themes/next/_config.yml
 node_modules/
 
 # Ignore unused verdors' files
