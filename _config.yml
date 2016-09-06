@@ -1,12 +1,12 @@
 # ---------------------------------------------------------------
-# Site Information Settings test .gitignore
+# Site Information Settings
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate) tedd
-keywords: "数学, 拉马努金，数学竞赛，华杯赛, 奥数"
+keywords: "数学, 华杯赛, 奥数，数学竞赛"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -28,9 +28,9 @@ canonical: true
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives) tedd
 menu:
-  about: /about
   home: /
   categories: /categories
+  #about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -122,9 +122,6 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
-social:
-  #GitHub: https://github.com/ganyuanda
-  #BaiDu: http://www.baidu.com/p/%E7%94%98%E6%BA%90%E8%BE%BE
 
 
 # Social Links Icons
@@ -235,14 +232,13 @@ auto_excerpt:
 mathjax:
   enable: true
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  #cdn: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
 # Swiftype Search API Key
 #swiftype_key:
 
 # Baidu Analytics ID tedd
-baidu_analytics: c6b15007a1e2ad37bf81168c3f8d605a
+baidu_analytics: be11db1b45f6cdf6f6824ed1c8360c4f
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -280,13 +276,9 @@ baidu_analytics: c6b15007a1e2ad37bf81168c3f8d605a
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: true
-  user_id: 6316729497689260802
+  admin_enable: false
+  user_id: 0
   #admin_nickname: Author
-
-
-# 多说热评文章 true 或者 false
-duoshuo_hotartical: true
 
 
 # Facebook SDK Support.
@@ -399,18 +391,6 @@ vendors:
 css: css
 js: js
 images: images
-
-#reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-#wechatpay: /path/to/wechat-reward-image
-#alipay: /path/to/alipay-reward-image
-
-#links_title: Links
-links:
-  David: http://aleph0.clarku.edu/~djoyce/java/elements/elements.html
-  Bill: http://www.math.ubc.ca/~cass/Euclid/euclid.html
-  视频: http://list.youku.com/albumlist/show/id_26358807.html
-
-since: 2016
 
 # Theme version
 version: 5.0.1
