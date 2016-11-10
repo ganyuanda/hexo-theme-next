@@ -2,7 +2,7 @@
 .idea/
 *.log
 *.iml
-/_config.yml
+#/_config.yml
 _config.yml
 languages/zh-Hans.yml
 #_config.yml
