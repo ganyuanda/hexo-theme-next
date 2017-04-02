@@ -5,8 +5,8 @@
 # Put your favicon.ico into `hexo-site/source/` directory.
 favicon: /favicon.ico
 
-# Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+# Set default keywords (Use a comma to separate) revised by tedd
+keywords: "数学, 拉马努金, 欧几里得, 几何原本, 数学竞赛, 华杯赛, 奥数"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -35,27 +35,28 @@ seo: false
 # Menu Settings
 # ---------------------------------------------------------------
 
-# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives) revised by tedd
 menu:
+  about: /about
+  secret: /secret
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
-
 # Enable/Disable menu icons.
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
 #   Key is the name of menu item and value is the name of FontAwesome icon. Key is case-senstive.
-#   When an question mask icon presenting up means that the item has no mapping icon.
+#   When an question mask icon presenting up means that the item has no mapping icon. revised by tedd
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
+  secret: rocket
   categories: th
   schedule: calendar
   tags: tags
@@ -65,15 +66,14 @@ menu_icons:
 
 
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
-# Schemes
-scheme: Muse
+# Schemes revised by tedd
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -87,8 +87,8 @@ scheme: Muse
 font:
   enable: true
 
-  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default) revised by tedd
+  host: //fonts.useso.com
 
   # Global font settings used on <body> element.
   global:
@@ -153,8 +153,8 @@ social_icons:
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
-# in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+# in site  directory(source/uploads): /uploads/avatar.jpg revised by tedd
+avatar: /images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -168,14 +168,14 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
-#creative_commons:
+#creative_commons: by-nc-sa revised by tedd
+creative_commons: by-nc-sa
 
-
+# revised by tedd
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -198,13 +198,13 @@ sidebar:
   scrollpercent: false
 
 
-# Blog rolls
-#links_title: Links
-#links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
-
+# Blog rolls  revised by tedd
+#links_title: Links #links_layout: block #links_layout: inline
+#links: revised by tedd
+links:
+  David: http://aleph0.clarku.edu/~djoyce/java/elements/elements.html
+  Bill: http://www.math.ubc.ca/~cass/Euclid/euclid.html
+  视频: http://list.youku.com/albumlist/show/id_26358807.html
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -242,11 +242,11 @@ post_wordcount:
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
   #description: ex. subscribe to my blog by scanning my public wechat account
 
-# Declare license on posts
+# Declare license on posts revised by tedd
 post_copyright:
   enable: false
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  license: CC BY-NC-SA 3.0 CN
+  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/cn
 
 
 
@@ -275,9 +275,9 @@ highlight_theme: normal
 # Third Party Services Settings
 # ---------------------------------------------------------------
 
-# MathJax Support
+# MathJax Support revised by tedd #cdn: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMMLy
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -285,8 +285,8 @@ mathjax:
 # Swiftype Search API Key
 #swiftype_key:
 
-# Baidu Analytics ID
-#baidu_analytics:
+# Baidu Analytics ID revised by tedd
+baidu_analytics: c6b15007a1e2ad37bf81168c3f8d605a
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -421,8 +421,8 @@ busuanzi_count:
 # tencent_mta:
 
 
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO revised by tedd
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -452,9 +452,9 @@ algolia_search:
     hits_stats: "${hits} results found in ${time} ms"
 
 
-# Local search
+# Local search revised by tedd
 local_search:
-  enable: false
+  enable: true
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
