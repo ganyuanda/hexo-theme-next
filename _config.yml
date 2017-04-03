@@ -87,8 +87,8 @@ scheme: Pisces
 font:
   enable: true
 
-  # Uri of fonts host. E.g. //fonts.googleapis.com (Default) revised by tedd
-  host: //fonts.useso.com
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default) revised by tedd  //fonts.useso.com
+  host:
 
   # Global font settings used on <body> element.
   global:
@@ -301,7 +301,7 @@ disqus:
 #hypercomments_id:
 
 # Gentie productKey
-#gentie_productKey:
+gentie_productKey: 123044b88a4e40ce9ffd01e49ab1b22f
 
 # changyan
 changyan:
