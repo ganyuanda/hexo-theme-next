@@ -11,7 +11,17 @@
 {% block content %}
   <section id="posts" class="posts-expand">
     {% for post in page.posts %}
-      {{ post_template.render(post, true) }}
+        {% for category in post.categories %}
+            {% if category.name=='机器学习' %}
+					{% if tag.name!='类页' %}
+						{{ post_template.render(post, true) }}
+					{% endif %}
+            {% elseif category.name=='关于' %}
+					{% if tag.name!='类页' %}
+						{{ post_template.render(post, true) }}
+					{% endif %}
+            {% endif %}
+        {% endfor %}
     {% endfor %}
   </section>
 
