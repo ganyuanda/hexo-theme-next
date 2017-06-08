@@ -20,6 +20,14 @@
 					{% if tag.name!='类页' %}
 						{{ post_template.render(post, true) }}
 					{% endif %}
+            {% elseif category.name=='研究' %}
+					{% if tag.name!='类页' %}
+						{{ post_template.render(post, true) }}
+					{% endif %}
+            {% elseif category.name=='学习' %}
+					{% if tag.name!='类页' %}
+						{{ post_template.render(post, true) }}
+					{% endif %}
             {% endif %}
         {% endfor %}
     {% endfor %}
